@@ -15,7 +15,7 @@ form {
     display: flex;
     flex-direction: column;
 
-    width: 20%;
+    width: 30%;
 }
 
 form h1 {
@@ -58,4 +58,10 @@ form .botoes {
 .botoes button {
     width: 40%;
     border-radius: 5px;
+}
+
+.botoes button:hover {
+    /*MUDAR A COR*/
+    background-color: rgb(48, 48, 48);
+    color: white;
 }
